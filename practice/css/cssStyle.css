@@ -1,0 +1,105 @@
+			body {
+				background: url(../img/background.jpg);
+				background-repeat: no-repeat;
+				background-size: cover;
+			}
+			
+			#con {
+				position: absolute;
+				width: 1903px;
+				height: 800px;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				overflow: initial;
+			}
+			
+			#content {
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				width: 600px;
+				height: 300px;
+				background: rgba(0, 0, 0, .3);
+			}
+			
+			#content div {
+				width: 250px;
+				height: 200px;
+				margin: 25px;
+			}
+			
+			#resMsg {
+				float: right;
+			}
+			
+			#loginMsg {
+				float: left;
+			}
+			
+			#loginBtn,
+			#regBtn {
+				outline: none;
+				width: 100px;
+				height: 40px;
+				font-size: 20px;
+				background: none;
+				color: white;
+				border: 2px solid white;
+			}
+			
+			#loginDiv,
+			#regDiv,
+			#bg {
+				float: left;
+				position: absolute;
+				z-index: 30px;
+				width: 300px;
+				height: 400px;
+				/*background: white;*/
+				top: 50%;
+				text-align: center;
+			}
+			
+			#bg {
+				background: white;
+			}
+			
+			#loginDiv,
+			#bg {
+				left: 42%;
+				transform: translate(-50%, -50%);
+			}
+			
+			#regDiv {
+				left: 58%;
+				transform: translate(-50%, -50%);
+				display: none;
+			}
+			
+			#loginName,
+			#loginPass,
+			#regName,
+			#regPass,
+			#regPass2 {
+				width: 200px;
+				height: 30px;
+				margin: 10px;
+				border: none;
+				border-bottom: 1px solid black;
+				background: none;
+			}
+			
+			#signin,
+			#signup {
+				width: 130px;
+				height: 40px;
+				background: #e67e22;
+				border: none;
+				border-radius: 5px;
+				color: white;
+				font-weight: bold;
+				font-size: 20px;
+				margin: 50px 0 0 0;
+			}

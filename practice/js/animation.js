@@ -1,0 +1,16 @@
+			$(function(){
+				$("#loginBtn").click(function(){
+					$("#regDiv").hide();
+					$("#loginMsg").hide();
+					$("#resMsg").show();
+					$("#loginDiv").show();
+					$("#bg").animate({left:"42%"},500,"easeOutBack")
+				})
+				$("#regBtn").click(function(){
+					$("#loginDiv").hide();
+					$("#resMsg").hide();
+					$("#loginMsg").show();
+					$("#regDiv").show();
+					$("#bg").animate({left:"58%"},500,"easeOutBack")
+				})
+			})
